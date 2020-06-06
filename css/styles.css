@@ -65,6 +65,12 @@ ul {
   color: var(--text-accent-color);
 }
 
+.contacts .link {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #757575; /*временный цвет*/
+  font-style: normal;
+}
+
 .link:hover,
 .link:focus {
   color: var(--text-accent-color);
@@ -153,17 +159,6 @@ ul {
 .contacts .logo-colored {
   font-size: 26px;
   line-height: 1.18;
-}
-
-.contacts .link {
-  color: rgba(255, 255, 255, 0.6);
-  background-color: #757575; /*временный цвет*/
-  font-style: normal;
-}
-
-.contacts .link:hover,
-.contacts .link:focus {
-  color: var(--text-accent-color);
 }
 
 .location.text {
