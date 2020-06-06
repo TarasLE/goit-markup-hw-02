@@ -34,6 +34,8 @@ ul {
 .contacts .link {
   color: rgba(255, 255, 255, 0.6);
   background-color: #757575; /*временный цвет*/
+  font-size: 14px;
+  line-height: 1.71;
   font-style: normal;
 }
 
