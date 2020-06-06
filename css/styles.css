@@ -23,6 +23,25 @@ ul {
   text-decoration: none;
 }
 
+.site-nav .link {
+  color: var(--text-title-color);
+}
+
+.site-auth .link {
+  color: var(--primary-text-color);
+}
+
+.contacts .link {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #757575; /*временный цвет*/
+  font-style: normal;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--text-accent-color);
+}
+
 .mail-color {
   color: var(--text-accent-color);
 }
@@ -45,7 +64,8 @@ ul {
   color: var(--text-accent-color);
 }
 
-.site-nav {
+.site-nav,
+.site-auth {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -53,26 +73,11 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.site-nav .link {
-  color: var(--text-title-color);
-}
-
-.site-nav .text {
+/* .site-nav .text {
   color: var(--primary-text-color);
-}
+} */
 
 .current-page {
-  color: var(--text-accent-color);
-}
-
-.contacts .link {
-  color: rgba(255, 255, 255, 0.6);
-  background-color: #757575; /*временный цвет*/
-  font-style: normal;
-}
-
-.link:hover,
-.link:focus {
   color: var(--text-accent-color);
 }
 
